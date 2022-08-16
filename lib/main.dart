@@ -14,7 +14,6 @@ class Myappfirsr extends StatelessWidget {
           drawer: Drawer(
             backgroundColor: Colors.purple[400],
             // This text appears in the upper corner
-            child: Text("Hello from the drawer "),
           ),
           // Properties appBar
           appBar: AppBar(
@@ -33,9 +32,6 @@ class Myappfirsr extends StatelessWidget {
               style: TextStyle(
                 fontSize: 25,
                 color: Colors.black,
-                shadows: [
-                  Shadow(color: Colors.brown, blurRadius: 10.1),
-                ],
                 decoration: TextDecoration.underline,
                 wordSpacing: 1.1,
                 fontWeight: FontWeight.bold,
